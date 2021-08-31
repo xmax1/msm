@@ -1,0 +1,26 @@
+# MODEL
+levels: 3
+tmp_abs_factor: 6
+dec_stddev: 1.0
+enc_dense_embed_size: 1000
+cell_type: RSSMCell
+cell_stoch_size: 20
+cell_deter_size: 200
+cell_embed_size: 200
+
+# DATASET
+data_root:  ~/tensorflow_datasets/ #TODO
+dataset: mmnist
+seq_len: 100
+channels: 1
+
+# TRAINING
+lr: 0.0003
+batch_size: 50
+num_epochs: 300
+
+# SUMMARIES
+log_root:  ~/cwvae/ #TODO
+open_loop_ctx: 36
+num_val_batches: 1
+save_named_model_every: 5000

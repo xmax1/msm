@@ -1,0 +1,16 @@
+# generic
+*.idea
+*.pyc
+*.ipynb_*
+*.pyo
+*tmp*
+*.vscode
+**/__pycache__
+
+# data and experiments
+**/experiments
+**/datasets
+**/papers
+**/content
+**/data
+
