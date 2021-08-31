@@ -9,7 +9,8 @@
 
 # data and experiments
 **/experiments
-**/datasets
+**/data
+# **/datasets reserve for dataset related *code* and needs to be imported
 **/papers
 **/content
 **/data
